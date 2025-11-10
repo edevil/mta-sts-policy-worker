@@ -1,6 +1,7 @@
 name = "mta-sts-policy-worker"
 main = "src/worker.ts"
 compatibility_date = "2023-06-14"
+workers_dev = false
 
 # # KV Namespace binding - For more information: https://developers.cloudflare.com/workers/runtime-apis/kv
 # [[kv_namespaces]]
